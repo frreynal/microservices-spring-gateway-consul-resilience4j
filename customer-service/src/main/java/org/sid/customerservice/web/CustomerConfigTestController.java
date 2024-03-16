@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.Map;
 
 @RestController
-@RefreshScope
+@RefreshScope // pour avoir la dernière conf du config-server ?
 public class CustomerConfigTestController {
     @Value("${global.params.p1}")
     private String p1;
@@ -22,4 +22,5 @@ public class CustomerConfigTestController {
     public Map<String, String> params(){
         return Map.of("p1",p1,"p2",p2,"x",x,"y",y);
     }
+
 }

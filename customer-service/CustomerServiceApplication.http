@@ -1,0 +1,16 @@
+### get params config
+
+GET http://localhost:8081/params
+
+### get customers/1
+
+GET http://localhost:8081/customers/1
+
+### Via GATEWAY (port 9999) :
+
+GET http://localhost:9999/customer-service/customers/
+
+### Refresh config server
+
+POST http://localhost:8081/actuator/refresh
+

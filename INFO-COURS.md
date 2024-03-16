@@ -1,6 +1,6 @@
 ## Part 1-All what you need about Micro Services Architecture-Consul-Config- Gateway-Feign-Resilience4J
 
-https://www.youtube.com/watch?v=LPdfVmllSQo
+https://www.youtube.com/watch?v=LPdfVmllSQo 38:55
 
 
 ### Git :
